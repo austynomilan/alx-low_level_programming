@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 *main- a program that prints a given string
-*return:0 if exited properly, non zero otherwise
+*Return: Always 0 (success), non zero otherwise
 */
 int main(void)
 {
