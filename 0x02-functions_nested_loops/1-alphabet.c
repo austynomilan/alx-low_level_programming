@@ -1,9 +1,9 @@
 #include "main.h"
 /**
-  *print_letter - Entry point 
+  *print_alphabet - Entry point 
   *Return: Always 0
   */
-void print_letter(void)
+void print_alphabet(void)
 {
 	char x;
 
