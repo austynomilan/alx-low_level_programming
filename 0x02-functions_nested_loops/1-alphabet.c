@@ -11,5 +11,5 @@ void print_letter(void)
 	{
 		_putchar(x);
 	}
-	_putchar('\n')
+	_putchar('\n');
 }
