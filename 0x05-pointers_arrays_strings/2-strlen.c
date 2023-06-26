@@ -2,11 +2,12 @@
 /**
   *_strlen - Entry point
   *@s: the word to be analysize
-  *Returns: Always 0
+  *Return: Always 0
   */
 int _strlen(char *s)
 {
 	int stringLength = 0;
+
 	while (s[stringLength])
 		stringLength++;
 	return (stringLength);
