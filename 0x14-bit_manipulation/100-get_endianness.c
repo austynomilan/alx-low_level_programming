@@ -1,22 +1,16 @@
 #include <stdio.h>
 #include "main.h"
 /**
- *main - Entry into the progarm
+ *get_endianness- Entry into the progarm
  *Return: Always 0
  */
 
-int main(void)
+int get_endianness(void)
 {
-	int n;
+	unsigned int i = 1;
+	char *c = (char *)&i;
 
-	n = get_endianness();
-	if (n != 0)
-	{
-		printf("Little Endian\n");
-	}
-	else
-	{
-		printf("Big Endian\n");
-	}
+	if (*c)
+		return (1);
 	return (0);
 }
